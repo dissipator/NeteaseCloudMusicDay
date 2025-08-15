@@ -1,7 +1,7 @@
 name: 网易云日推自动创建歌单
 on:
   schedule:
-    - cron:  '15 19 * * *'   # 每天 8:30 UTC+8
+    - cron:  '15 07 * * *'   # 每天 8:30 UTC+8
 jobs:
   backup:
     runs-on: ubuntu-latest
